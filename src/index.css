@@ -2,39 +2,54 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* MyCo Mushrooms Design System - Earthy, Agricultural, Sustainable */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Core Agricultural Color Palette */
+    --background: 42 15% 97%;
+    --foreground: 24 30% 12%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 42 20% 99%;
+    --card-foreground: 24 30% 12%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 42 20% 99%;
+    --popover-foreground: 24 30% 12%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary: Deep Forest Green */
+    --primary: 142 45% 25%;
+    --primary-foreground: 42 20% 99%;
+    --primary-glow: 142 35% 35%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Secondary: Warm Coffee Brown */
+    --secondary: 25 35% 35%;
+    --secondary-foreground: 42 20% 99%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Muted: Sage Green */
+    --muted: 120 15% 88%;
+    --muted-foreground: 24 25% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Accent: Fresh Sage */
+    --accent: 120 25% 75%;
+    --accent-foreground: 24 30% 12%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    /* Destructive: Earthy Red */
+    --destructive: 12 65% 55%;
+    --destructive-foreground: 42 20% 99%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    /* UI Elements */
+    --border: 120 12% 85%;
+    --input: 120 12% 90%;
+    --ring: 142 45% 25%;
+
+    /* Agricultural Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
+    --gradient-earth: linear-gradient(180deg, hsl(120 20% 95%), hsl(42 25% 90%));
+    --gradient-coffee: linear-gradient(135deg, hsl(25 35% 35%), hsl(30 30% 45%));
+    
+    /* Sustainable Shadows */
+    --shadow-earth: 0 10px 25px -5px hsl(var(--primary) / 0.15);
+    --shadow-soft: 0 4px 15px -2px hsl(var(--muted-foreground) / 0.1);
 
     --radius: 0.5rem;
 
