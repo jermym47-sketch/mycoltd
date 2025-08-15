@@ -5,30 +5,37 @@ const HowItWorks = () => {
     {
       number: 1,
       icon: <Factory className="w-8 h-8" />,
-      title: "Substrate Production",
-      description: "We collect spent coffee grounds and agricultural waste, then process them into optimized mushroom substrate tubes in our facility.",
+      title: "Waste Collection",
+      description: "We collect spent coffee grounds and agricultural by-products from coffee shops, hotels, and farms across Rwanda.",
       color: "bg-gradient-coffee"
     },
     {
       number: 2,
       icon: <GraduationCap className="w-8 h-8" />,
-      title: "Farmer Training",
-      description: "Comprehensive training programs teach farmers mushroom cultivation techniques, maintenance, and harvesting best practices.",
+      title: "Substrate Processing",
+      description: "We process and blend coffee grounds with rice husks and cotton waste into our high-yield mushroom substrate formula.",
       color: "bg-gradient-primary"
     },
     {
       number: 3,
       icon: <Sprout className="w-8 h-8" />,
-      title: "Cultivation & Harvest",
-      description: "Farmers receive ready-to-fruit substrate tubes and begin harvesting fresh mushrooms within 7-14 days.",
+      title: "Packaging & Delivery",
+      description: "We package them into ready-to-fruit tubes and deliver them directly to farmers with training and support.",
       color: "bg-secondary"
     },
     {
       number: 4,
       icon: <ShoppingCart className="w-8 h-8" />,
-      title: "Market Linkage",
-      description: "We connect farmers with buyers, ensuring guaranteed markets and fair prices for their mushroom harvests.",
+      title: "Cultivation & Harvest",
+      description: "Farmers grow and harvest fresh mushrooms in just 4–6 weeks using our proven cultivation methods.",
       color: "bg-accent"
+    },
+    {
+      number: 5,
+      icon: <ShoppingCart className="w-8 h-8" />,
+      title: "Market Linkage",
+      description: "We link farmers to reliable buyers and markets, ensuring consistent income and fair prices for their harvest.",
+      color: "bg-gradient-coffee"
     }
   ];
 
@@ -40,7 +47,7 @@ const HowItWorks = () => {
             How It Works
           </h2>
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-            From waste to harvest to market - our end-to-end process ensures farmer success every step of the way.
+            From waste collection to harvest to market - our end-to-end process ensures farmer success every step of the way.
           </p>
         </div>
 
@@ -48,7 +55,7 @@ const HowItWorks = () => {
         <div className="relative">
           {/* Desktop View */}
           <div className="hidden lg:block">
-            <div className="grid grid-cols-4 gap-8">
+            <div className="grid grid-cols-5 gap-6">
               {steps.map((step, index) => (
                 <div key={index} className="relative">
                   {/* Connector Arrow */}
@@ -116,25 +123,25 @@ const HowItWorks = () => {
         {/* Timeline Summary */}
         <div className="mt-16 bg-gradient-earth rounded-xl p-8 text-center">
           <h3 className="text-2xl font-semibold text-foreground mb-4">
-            From Setup to Profit in Just 2 Weeks
+            From Waste to Profit in 4–6 Weeks
           </h3>
           <p className="text-muted-foreground mb-6 max-w-2xl mx-auto leading-relaxed">
-            Our streamlined process ensures farmers can start generating income quickly with minimal upfront investment and maximum support.
+            Our streamlined process ensures farmers can start generating income quickly with minimal upfront investment and comprehensive support throughout their journey.
           </p>
           <div className="flex justify-center items-center space-x-8 text-sm">
             <div className="text-center">
-              <div className="font-bold text-primary text-lg">Day 1</div>
+              <div className="font-bold text-primary text-lg">Week 1</div>
               <div className="text-muted-foreground">Training & Setup</div>
             </div>
             <ArrowRight className="w-4 h-4 text-muted-foreground" />
             <div className="text-center">
-              <div className="font-bold text-primary text-lg">Day 7-14</div>
+              <div className="font-bold text-primary text-lg">Week 4-6</div>
               <div className="text-muted-foreground">First Harvest</div>
             </div>
             <ArrowRight className="w-4 h-4 text-muted-foreground" />
             <div className="text-center">
-              <div className="font-bold text-primary text-lg">Day 15+</div>
-              <div className="text-muted-foreground">Ongoing Income</div>
+              <div className="font-bold text-primary text-lg">Ongoing</div>
+              <div className="text-muted-foreground">Continuous Income</div>
             </div>
           </div>
         </div>

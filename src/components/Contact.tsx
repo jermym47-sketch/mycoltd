@@ -35,14 +35,14 @@ const Contact = () => {
     {
       icon: <Phone className="w-6 h-6" />,
       title: "Phone",
-      details: "+250 788 123 456",
-      action: "tel:+250788123456"
+      details: "+250 XXX XXX XXX",
+      action: "tel:+250xxxxxxxxx"
     },
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email", 
-      details: "info@mycomushrooms.rw",
-      action: "mailto:info@mycomushrooms.rw"
+      details: "info@mycomushrooms.com",
+      action: "mailto:info@mycomushrooms.com"
     },
     {
       icon: <MapPin className="w-6 h-6" />,
@@ -53,8 +53,8 @@ const Contact = () => {
     {
       icon: <MessageCircle className="w-6 h-6" />,
       title: "WhatsApp",
-      details: "+250 788 123 456",
-      action: "https://wa.me/250788123456"
+      details: "Click to chat directly",
+      action: "https://wa.me/250xxxxxxxxx"
     }
   ];
 
@@ -198,7 +198,7 @@ const Contact = () => {
                 variant="secondary" 
                 size="lg" 
                 className="w-full"
-                onClick={() => window.open("https://wa.me/250788123456", "_blank")}
+                onClick={() => window.open("https://wa.me/250xxxxxxxxx", "_blank")}
               >
                 <MessageCircle className="mr-2 w-5 h-5" />
                 WhatsApp Us

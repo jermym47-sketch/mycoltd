@@ -7,22 +7,22 @@ const Solution = () => {
     {
       icon: <CheckCircle className="w-6 h-6" />,
       title: "Higher Yields",
-      description: "Our optimized substrate produces 3x more mushrooms than traditional methods"
+      description: "Our tubes produce twice as many mushrooms as traditional methods"
     },
     {
       icon: <Clock className="w-6 h-6" />,
-      title: "Quick Harvest",
-      description: "Ready-to-fruit tubes enable harvest in just 7-14 days after setup"
+      title: "Faster Harvest",
+      description: "Reduced incubation by 6 days compared to conventional approaches"
     },
     {
       icon: <DollarSign className="w-6 h-6" />,
       title: "Low Cost",
-      description: "Affordable substrate tubes with guaranteed return on investment"
+      description: "Start farming for as little as $25 with guaranteed return"
     },
     {
       icon: <BookOpen className="w-6 h-6" />,
-      title: "Training Included",
-      description: "Comprehensive farmer training and ongoing support provided"
+      title: "No Experience Needed",
+      description: "We provide training and ongoing support for all farmers"
     }
   ];
 
@@ -34,8 +34,7 @@ const Solution = () => {
             Our Revolutionary Solution
           </h2>
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-            Ready-to-fruit mushroom substrate tubes made from spent coffee grounds and agricultural waste, 
-            designed specifically for smallholder farmers in Rwanda.
+            We produce ready-to-fruit mushroom substrate tubes made from a unique blend of spent coffee grounds, rice husks, and cotton waste.
           </p>
         </div>
 
@@ -53,12 +52,12 @@ const Solution = () => {
           {/* Content */}
           <div>
             <h3 className="text-2xl md:text-3xl font-semibold text-foreground mb-6">
-              Transforming Coffee Waste into Opportunity
+              Why Farmers Love It
             </h3>
             <p className="text-muted-foreground mb-8 leading-relaxed">
-              Our innovative substrate tubes convert spent coffee grounds and other agricultural waste 
+              Our innovative substrate tubes convert spent coffee grounds, rice husks, and cotton waste 
               into perfect growing medium for oyster mushrooms. Each tube is scientifically formulated 
-              to maximize yield while minimizing input costs for farmers.
+              to maximize yield while minimizing input costs for farmers. Plus, we provide market access and even secure offtake agreements.
             </p>
 
             {/* Benefits Grid */}

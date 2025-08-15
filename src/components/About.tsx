@@ -9,8 +9,7 @@ const About = () => {
             About MyCo Mushrooms
           </h2>
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-            We're a Rwanda-based agri-innovation startup on a mission to transform agricultural waste 
-            into sustainable income opportunities for smallholder farmers while addressing food security.
+            MyCo Mushrooms is a Rwanda-based agri-innovation startup dedicated to creating a circular economy in agriculture. We empower youth and women farmers by providing ready-to-use, high-yield mushroom substrates made from recycled coffee grounds and other local agricultural waste.
           </p>
         </div>
 
@@ -22,8 +21,7 @@ const About = () => {
             </div>
             <h3 className="text-xl font-semibold text-foreground mb-4">Our Mission</h3>
             <p className="text-muted-foreground leading-relaxed">
-              To empower smallholder farmers in Rwanda by converting agricultural waste into 
-              high-value mushroom production systems that ensure food security and sustainable income.
+              To turn "dump to wealth" by transforming waste into nutritious food, income opportunities, and environmental benefits.
             </p>
           </div>
 
@@ -33,8 +31,7 @@ const About = () => {
             </div>
             <h3 className="text-xl font-semibold text-foreground mb-4">Our Vision</h3>
             <p className="text-muted-foreground leading-relaxed">
-              A Rwanda where every smallholder farmer has access to sustainable, profitable 
-              agricultural innovations that strengthen communities and protect the environment.
+              A future where every farmer can grow more with less—producing nutritious food sustainably while regenerating our planet.
             </p>
           </div>
 
@@ -42,10 +39,9 @@ const About = () => {
             <div className="w-16 h-16 bg-secondary rounded-full flex items-center justify-center mx-auto mb-6 group-hover:shadow-earth transition-all duration-300">
               <Heart className="w-8 h-8 text-secondary-foreground" />
             </div>
-            <h3 className="text-xl font-semibold text-foreground mb-4">Our Values</h3>
+            <h3 className="text-xl font-semibold text-foreground mb-4">Our Story</h3>
             <p className="text-muted-foreground leading-relaxed">
-              Sustainability, farmer empowerment, innovation, and environmental stewardship 
-              guide everything we do in building resilient agricultural communities.
+              Founded by three passionate entrepreneurs—Ermias Mekonnen, Clever Kayitaramirwa, and Providence Irakoze—MyCo Mushrooms was born out of the desire to solve three urgent problems: food insecurity, agricultural waste, and youth unemployment.
             </p>
           </div>
         </div>
@@ -55,25 +51,32 @@ const About = () => {
           <h3 className="text-2xl font-semibold text-center text-foreground mb-8">
             Meet Our Co-Founders
           </h3>
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
               <div className="w-32 h-32 bg-gradient-primary rounded-full mx-auto mb-4 flex items-center justify-center">
-                <span className="text-2xl font-bold text-primary-foreground">CF</span>
+                <span className="text-2xl font-bold text-primary-foreground">EM</span>
               </div>
-              <h4 className="text-xl font-semibold text-foreground mb-2">Co-Founder 1</h4>
+              <h4 className="text-xl font-semibold text-foreground mb-2">Ermias Mekonnen</h4>
               <p className="text-muted-foreground">
-                Agricultural innovation expert with 10+ years experience in sustainable farming 
-                and waste management solutions across East Africa.
+                Co-Founder passionate about sustainable agriculture and transforming waste into wealth through innovative farming solutions.
               </p>
             </div>
             <div className="text-center">
               <div className="w-32 h-32 bg-gradient-coffee rounded-full mx-auto mb-4 flex items-center justify-center">
-                <span className="text-2xl font-bold text-primary-foreground">CF</span>
+                <span className="text-2xl font-bold text-primary-foreground">CK</span>
               </div>
-              <h4 className="text-xl font-semibold text-foreground mb-2">Co-Founder 2</h4>
+              <h4 className="text-xl font-semibold text-foreground mb-2">Clever Kayitaramirwa</h4>
               <p className="text-muted-foreground">
-                Business development leader focused on farmer training, market linkages, 
-                and sustainable supply chain development in rural communities.
+                Co-Founder focused on empowering farmers through technology and creating sustainable income opportunities in rural communities.
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="w-32 h-32 bg-secondary rounded-full mx-auto mb-4 flex items-center justify-center">
+                <span className="text-2xl font-bold text-secondary-foreground">PI</span>
+              </div>
+              <h4 className="text-xl font-semibold text-foreground mb-2">Providence Irakoze</h4>
+              <p className="text-muted-foreground">
+                Co-Founder dedicated to solving food insecurity and youth unemployment through agricultural innovation and circular economy principles.
               </p>
             </div>
           </div>

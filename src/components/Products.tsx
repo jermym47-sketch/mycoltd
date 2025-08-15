@@ -5,23 +5,23 @@ const Products = () => {
   const products = [
     {
       icon: <Package className="w-8 h-8" />,
-      title: "Substrate Tube Packages",
-      description: "Ready-to-fruit mushroom substrate tubes made from premium coffee grounds and agricultural waste.",
+      title: "Mushroom Substrate Tubes",
+      description: "High-quality, ready-to-fruit tubes made from sustainable ingredients including coffee grounds, rice husks, and cotton waste.",
       features: [
-        "Optimized for oyster mushrooms",
-        "7-14 day harvest cycle", 
-        "High yield guarantee",
-        "Eco-friendly packaging"
+        "Made from recycled coffee waste",
+        "Ready-to-fruit in 4-6 weeks", 
+        "Higher yields than traditional methods",
+        "Eco-friendly and sustainable"
       ],
-      pricing: "Starting at $5 per tube",
+      pricing: "Starting at $25",
       cta: "Order Substrate Tubes"
     },
     {
       icon: <Users className="w-8 h-8" />,
-      title: "Farmer Training Programs",
-      description: "Comprehensive education covering mushroom cultivation, maintenance, quality control, and business skills.",
+      title: "Farmer Training",
+      description: "Hands-on training for beginners and experienced growers covering all aspects of mushroom cultivation and business development.",
       features: [
-        "Hands-on cultivation training",
+        "Comprehensive cultivation training",
         "Business development sessions",
         "Quality control techniques",
         "Ongoing support network"
@@ -31,15 +31,15 @@ const Products = () => {
     },
     {
       icon: <Handshake className="w-8 h-8" />,
-      title: "Market Linkage Services",
-      description: "Direct connections to buyers, restaurants, and markets ensuring guaranteed sales for your harvest.",
+      title: "Market Linkages",
+      description: "We connect you with buyers and offer offtake opportunities, ensuring guaranteed markets and fair prices for your harvest.",
       features: [
         "Guaranteed buyer network",
+        "Offtake agreements available",
         "Fair price negotiations",
-        "Logistics coordination",
-        "Payment security"
+        "Logistics coordination"
       ],
-      pricing: "5% commission on sales",
+      pricing: "Included in partnership",
       cta: "Access Markets"
     }
   ];
@@ -52,7 +52,7 @@ const Products = () => {
             Products & Services
           </h2>
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-            Everything you need to start and scale your mushroom farming operation successfully.
+            Everything you need to start and scale your mushroom farming operation successfully, with advisory and support included.
           </p>
         </div>
 

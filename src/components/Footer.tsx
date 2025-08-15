@@ -7,7 +7,7 @@ const Footer = () => {
     { icon: <Facebook className="w-5 h-5" />, href: "#", label: "Facebook" },
     { icon: <Instagram className="w-5 h-5" />, href: "#", label: "Instagram" },
     { icon: <Linkedin className="w-5 h-5" />, href: "#", label: "LinkedIn" },
-    { icon: <MessageCircle className="w-5 h-5" />, href: "https://wa.me/250788123456", label: "WhatsApp" }
+    { icon: <MessageCircle className="w-5 h-5" />, href: "https://wa.me/250xxxxxxxxx", label: "WhatsApp" }
   ];
 
   const quickLinks = [
@@ -92,8 +92,8 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-6">Get in Touch</h3>
             <div className="space-y-3 text-background/80">
-              <p>+250 788 123 456</p>
-              <p>info@mycomushrooms.rw</p>
+              <p>+250 XXX XXX XXX</p>
+              <p>info@mycomushrooms.com</p>
               <p>Kigali, Rwanda</p>
             </div>
             

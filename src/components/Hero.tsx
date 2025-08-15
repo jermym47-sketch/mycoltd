@@ -20,14 +20,12 @@ const Hero = () => {
         <div className="max-w-3xl">
           <div className="animate-fade-in-up">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-primary-foreground mb-6 leading-tight">
-              Turning Coffee Waste into{" "}
-              <span className="text-accent">Food & Income</span>{" "}
-              for Smallholder Farmers
+              Turning Coffee Waste Into{" "}
+              <span className="text-accent">Food & Income</span>
             </h1>
             
             <p className="text-lg md:text-xl text-primary-foreground/90 mb-8 max-w-2xl leading-relaxed">
-              MyCo Mushrooms transforms agricultural waste into sustainable mushroom substrate tubes, 
-              empowering farmers in Rwanda with higher yields, quick harvests, and guaranteed income.
+              Empowering smallholder farmers through sustainable mushroom farming. We transform spent coffee grounds and other agricultural waste into ready-to-fruit mushroom substrate tubes—helping farmers grow nutritious mushrooms, increase their income, and reduce waste.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
@@ -37,24 +35,27 @@ const Hero = () => {
               </Button>
               
               <Button variant="earth" size="xl" className="group">
-                <PlayCircle className="mr-2 w-5 h-5" />
-                Watch Our Story
+                Partner with Us
+              </Button>
+
+              <Button variant="outline" size="xl" className="group text-primary-foreground border-primary-foreground hover:bg-primary-foreground hover:text-foreground">
+                Get in Touch
               </Button>
             </div>
 
             {/* Key Stats */}
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-primary-foreground">
               <div className="text-center sm:text-left">
-                <div className="text-3xl font-bold text-accent">500+</div>
+                <div className="text-3xl font-bold text-accent">120</div>
+                <div className="text-sm opacity-90">Substrate Tubes Sold</div>
+              </div>
+              <div className="text-center sm:text-left">
+                <div className="text-3xl font-bold text-accent">22</div>
                 <div className="text-sm opacity-90">Farmers Trained</div>
               </div>
               <div className="text-center sm:text-left">
-                <div className="text-3xl font-bold text-accent">50 Tons</div>
-                <div className="text-sm opacity-90">Waste Recycled</div>
-              </div>
-              <div className="text-center sm:text-left">
-                <div className="text-3xl font-bold text-accent">3x</div>
-                <div className="text-sm opacity-90">Income Increase</div>
+                <div className="text-3xl font-bold text-accent">100%</div>
+                <div className="text-sm opacity-90">Recycled Waste</div>
               </div>
             </div>
           </div>

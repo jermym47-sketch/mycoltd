@@ -5,19 +5,19 @@ const Impact = () => {
     {
       number: "SDG 2",
       title: "Zero Hunger",
-      description: "Increasing food security through sustainable mushroom production",
+      description: "Providing nutritious, protein-rich mushrooms as a meat alternative",
       color: "bg-orange-500"
     },
     {
       number: "SDG 8", 
-      title: "Decent Work",
-      description: "Creating economic opportunities for smallholder farmers",
+      title: "Decent Work & Economic Growth",
+      description: "Creating jobs for youth and women through sustainable farming",
       color: "bg-red-500"
     },
     {
       number: "SDG 12",
-      title: "Responsible Consumption",
-      description: "Converting agricultural waste into valuable products",
+      title: "Responsible Consumption & Production",
+      description: "Recycling waste into valuable products and reducing environmental impact",
       color: "bg-yellow-500"
     }
   ];
@@ -25,27 +25,27 @@ const Impact = () => {
   const impactStats = [
     {
       icon: <Users className="w-8 h-8" />,
-      number: "500+",
+      number: "22",
       label: "Farmers Trained",
-      description: "Smallholder farmers empowered with mushroom cultivation skills"
+      description: "Farmers equipped with mushroom cultivation skills and substrate tubes"
     },
     {
       icon: <Recycle className="w-8 h-8" />,
-      number: "50",
-      label: "Tons Waste Recycled",
-      description: "Coffee grounds and agricultural waste converted to substrate"
+      number: "120",
+      label: "Substrate Tubes Sold",
+      description: "Ready-to-fruit tubes produced and sold out in just 5 days"
     },
     {
       icon: <TrendingUp className="w-8 h-8" />,
-      number: "$150K",
-      label: "Income Generated",
-      description: "Additional revenue created for farming communities"
+      number: "100%",
+      label: "Recycled Waste",
+      description: "All coffee-based substrate made from recycled waste materials"
     },
     {
       icon: <Leaf className="w-8 h-8" />,
-      number: "15",
-      label: "Tons CO2 Saved",
-      description: "Carbon footprint reduced through waste recycling"
+      number: "Zero",
+      label: "Waste to Landfill",
+      description: "Converting agricultural waste into valuable mushroom substrate"
     }
   ];
 
