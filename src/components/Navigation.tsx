@@ -41,7 +41,7 @@ const Navigation = () => {
             <img 
               src="/lovable-uploads/d1af3f81-1943-477c-a6cd-e6645898d4e1.png" 
               alt="MyCo Mushrooms Logo" 
-              className="h-10 w-auto"
+              className="h-14 w-auto"
             />
           </div>
 

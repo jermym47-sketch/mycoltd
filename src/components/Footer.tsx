@@ -34,7 +34,7 @@ const Footer = () => {
               <img 
                 src="/lovable-uploads/d1af3f81-1943-477c-a6cd-e6645898d4e1.png" 
                 alt="MyCo Mushrooms Logo" 
-                className="h-10 w-auto filter brightness-0 invert"
+                className="h-12 w-auto filter brightness-0 invert"
               />
             </div>
             <p className="text-background/80 mb-6 leading-relaxed">
