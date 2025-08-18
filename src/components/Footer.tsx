@@ -30,11 +30,12 @@ const Footer = () => {
         <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-8">
           {/* Company Info */}
           <div className="lg:col-span-1">
-            <div className="flex items-center space-x-2 mb-6">
-              <div className="w-8 h-8 bg-gradient-primary rounded-full flex items-center justify-center">
-                <Leaf className="w-5 h-5 text-primary-foreground" />
-              </div>
-              <span className="text-xl font-bold">MyCo Mushrooms</span>
+            <div className="flex items-center space-x-3 mb-6">
+              <img 
+                src="/lovable-uploads/d1af3f81-1943-477c-a6cd-e6645898d4e1.png" 
+                alt="MyCo Mushrooms Logo" 
+                className="h-10 w-auto filter brightness-0 invert"
+              />
             </div>
             <p className="text-background/80 mb-6 leading-relaxed">
               Turning coffee waste into food and income for smallholder farmers across Rwanda. 
