@@ -60,7 +60,8 @@ const About = () => {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h4 className="text-xl font-semibold text-foreground mb-2">Ermias Mekonnen</h4>
+              <h4 className="text-xl font-semibold text-foreground mb-1">Ermias Mekonnen</h4>
+              <p className="text-sm font-medium text-primary mb-2">CEO</p>
               <p className="text-muted-foreground">
                 Co-Founder passionate about sustainable agriculture and transforming waste into wealth through innovative farming solutions.
               </p>
@@ -73,7 +74,8 @@ const About = () => {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h4 className="text-xl font-semibold text-foreground mb-2">Clever Kayitaramirwa</h4>
+              <h4 className="text-xl font-semibold text-foreground mb-1">Clever Kayitaramirwa</h4>
+              <p className="text-sm font-medium text-primary mb-2">CPMO</p>
               <p className="text-muted-foreground">
                 Co-Founder focused on empowering farmers through technology and creating sustainable income opportunities in rural communities.
               </p>
@@ -86,7 +88,8 @@ const About = () => {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h4 className="text-xl font-semibold text-foreground mb-2">Providence Irakoze</h4>
+              <h4 className="text-xl font-semibold text-foreground mb-1">Providence Irakoze</h4>
+              <p className="text-sm font-medium text-primary mb-2">COO</p>
               <p className="text-muted-foreground">
                 Co-Founder dedicated to solving food insecurity and youth unemployment through agricultural innovation and circular economy principles.
               </p>
