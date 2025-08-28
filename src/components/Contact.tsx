@@ -35,26 +35,26 @@ const Contact = () => {
     {
       icon: <Phone className="w-6 h-6" />,
       title: "Phone",
-      details: "+250 XXX XXX XXX",
-      action: "tel:+250xxxxxxxxx"
+      details: "+250796519383",
+      action: "tel:+250796519383"
     },
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email", 
-      details: "info@mycomushrooms.com",
-      action: "mailto:info@mycomushrooms.com"
+      details: "info@myco.rw",
+      action: "mailto:info@myco.rw"
     },
     {
       icon: <MapPin className="w-6 h-6" />,
       title: "Location",
       details: "Kigali, Rwanda",
-      action: "#"
+      action: "https://goo.gl/maps/anvFxw981TrVqXCv5?g_st=aw"
     },
     {
       icon: <MessageCircle className="w-6 h-6" />,
       title: "WhatsApp",
       details: "Click to chat directly",
-      action: "https://wa.me/250xxxxxxxxx"
+      action: "https://wa.me/250796519383"
     }
   ];
 
@@ -198,19 +198,28 @@ const Contact = () => {
                 variant="secondary" 
                 size="lg" 
                 className="w-full"
-                onClick={() => window.open("https://wa.me/250xxxxxxxxx", "_blank")}
+                onClick={() => window.open("https://wa.me/250796519383", "_blank")}
               >
                 <MessageCircle className="mr-2 w-5 h-5" />
                 WhatsApp Us
               </Button>
             </div>
 
-            {/* Map Placeholder */}
+            {/* Map */}
             <div className="mt-8 bg-muted rounded-xl p-8 text-center">
               <h4 className="font-semibold text-foreground mb-2">Visit Our Office</h4>
               <p className="text-muted-foreground mb-4">Kigali, Rwanda</p>
-              <div className="w-full h-32 bg-accent/20 rounded-lg flex items-center justify-center">
-                <span className="text-muted-foreground">Interactive map coming soon</span>
+              <div className="w-full h-32 bg-accent/20 rounded-lg overflow-hidden">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63824.55771574948!2d30.031862!3d-1.9441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca4258ed8e797%3A0xf32b36a5411d0bc8!2sKigali%2C%20Rwanda!5e0!3m2!1sen!2sus!4v1635789012345!5m2!1sen!2sus"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="MyCo Mushrooms Location"
+                />
               </div>
             </div>
           </div>

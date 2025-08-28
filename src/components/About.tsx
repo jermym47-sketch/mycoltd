@@ -53,8 +53,12 @@ const About = () => {
           </h3>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="w-32 h-32 bg-gradient-primary rounded-full mx-auto mb-4 flex items-center justify-center">
-                <span className="text-2xl font-bold text-primary-foreground">EM</span>
+              <div className="w-32 h-32 mx-auto mb-4 overflow-hidden rounded-full">
+                <img 
+                  src="/lovable-uploads/b70c29fd-7e27-4ca3-9738-7bf60a0962c7.png" 
+                  alt="Ermias Mekonnen" 
+                  className="w-full h-full object-cover"
+                />
               </div>
               <h4 className="text-xl font-semibold text-foreground mb-2">Ermias Mekonnen</h4>
               <p className="text-muted-foreground">
@@ -62,8 +66,12 @@ const About = () => {
               </p>
             </div>
             <div className="text-center">
-              <div className="w-32 h-32 bg-gradient-coffee rounded-full mx-auto mb-4 flex items-center justify-center">
-                <span className="text-2xl font-bold text-primary-foreground">CK</span>
+              <div className="w-32 h-32 mx-auto mb-4 overflow-hidden rounded-full">
+                <img 
+                  src="/lovable-uploads/7aa573ee-2a0c-47fe-82c0-be2eb2433fcc.png" 
+                  alt="Clever Kayitaramirwa" 
+                  className="w-full h-full object-cover"
+                />
               </div>
               <h4 className="text-xl font-semibold text-foreground mb-2">Clever Kayitaramirwa</h4>
               <p className="text-muted-foreground">
@@ -71,8 +79,12 @@ const About = () => {
               </p>
             </div>
             <div className="text-center">
-              <div className="w-32 h-32 bg-secondary rounded-full mx-auto mb-4 flex items-center justify-center">
-                <span className="text-2xl font-bold text-secondary-foreground">PI</span>
+              <div className="w-32 h-32 mx-auto mb-4 overflow-hidden rounded-full">
+                <img 
+                  src="/lovable-uploads/fa5ed64f-5fea-4ed5-9f3b-134a808e8b19.png" 
+                  alt="Providence Irakoze" 
+                  className="w-full h-full object-cover"
+                />
               </div>
               <h4 className="text-xl font-semibold text-foreground mb-2">Providence Irakoze</h4>
               <p className="text-muted-foreground">
